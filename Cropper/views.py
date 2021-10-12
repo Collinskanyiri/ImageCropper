@@ -40,14 +40,5 @@ def view_by_location(request, location):
         raise Http404()
     return render(request, 'location.html', {"location": image_location, 'message': location})
 
-# def photo_list(request):
-#     photos = Photo.objects.all()
-#     if request.method == "POST":
-#         form = PhotoForm(request.POST, request.FILES)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('photo_list')
-#     else:
-#         form = PhotoForm()
-#     return render(request, 'photo_list.html', {'form': form, 'photos': photos})
+
 
