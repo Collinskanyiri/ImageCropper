@@ -1,13 +1,10 @@
-# from PIL import Image
 from django import forms
-# from django.core.files import File
 
 CATEGORIES =( 
     ("1", "personal"), 
     ("2", "Facebook"), 
     ("3", "Snapchart"),   
     ("4", "Instargram"), 
-
 )
 
 class ImagesForm(forms.Form):
