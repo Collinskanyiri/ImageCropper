@@ -8,6 +8,13 @@
 
 This is a Django web application that is for displaying my photos taken from different locations and then put into different categories for viewing and searching.
 
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+You have installed the latest version of python 3.8
+You have a Linux machine
+
 ### Live site
 
 *view site from the link below*
