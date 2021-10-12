@@ -67,12 +67,12 @@ To get the code..
 
 - There are no known bugs currently but pull requests are allowed incase you spot a bug
 
-## Contact Information
+## Contact
 
-If you have any question or contributions, please email me at [collinskanyiri@gmail.com]()
+If you want to contact me you can reach me at [collinskanyiri@gmail.com]()
 
 ## License
 
-- *MIT License:*
+This project uses the following license:MIT License
 
 - Copyright (c) 2021 **Collins Kanyiri**
