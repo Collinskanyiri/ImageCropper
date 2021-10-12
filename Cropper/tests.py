@@ -25,10 +25,11 @@ class CategoryTestCase(TestCase):
 
 class TestImage(TestCase):
     def setUp(self):
-        self.location = Location(name='Moringa')
+        self.location = Location(name='Nakuru')
+
         self.location.save()
 
-        self.category = Category(name='home')
+        self.category = Category(name='personal')
         self.category.save()
 
         self.image_test = Image(id=1, image='image.jpg', description='test image', location=self.location,
