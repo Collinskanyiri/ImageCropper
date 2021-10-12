@@ -1,1 +1,1 @@
-web: gunicorn imageCropper.wsgi
+web: gunicorn ImageCropper.wsgi
