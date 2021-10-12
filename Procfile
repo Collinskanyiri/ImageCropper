@@ -1,1 +1,1 @@
-web: gunicorn imageCropper.wsgi --log-file -
+web: gunicorn imageCropper.wsgi
