@@ -48,6 +48,11 @@ class Image(models.Model):
     def filter_by_location(cls, location):
         img_location = Image.objects.filter(location__name=location).all()
         return img_location
+
+    @classmethod
+    def filter_by_category(cls, category):
+        img_category = Image.objects.filter(category__name=category).all()
+        return img_category   
     class Meta:
         ordering = ['date']
 

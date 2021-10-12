@@ -41,4 +41,12 @@ def view_by_location(request, location):
     return render(request, 'location.html', {"location": image_location, 'message': location})
 
 
+def view_by_category(request, category):
+    try:
+        image_category = Image.filter_by_category(category)
+        message = category
+    except ObjectDoesNotExist:
+        raise Http404()
+    return render(request, 'category.html', {"category": image_category, 'message': category})
+
 
