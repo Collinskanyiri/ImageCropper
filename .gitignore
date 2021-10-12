@@ -1,5 +1,6 @@
 .vscode
 virtual/
-# Media/
+Media/
 __pycache__
 .env
+ImageCropper/settings.py
